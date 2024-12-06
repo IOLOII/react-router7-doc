@@ -1,0 +1,23 @@
+{
+  "name": "react-router7-doc",
+  "version": "1.0.0",
+  "description": "react-router7 中文文档",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "keywords": [
+    "react-router7-doc",
+    "react-router7",
+    "react-router",
+    "react-router-dom",
+    "react-router-dom-v7"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.5.0"
+  }
+}
