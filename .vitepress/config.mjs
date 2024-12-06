@@ -7,6 +7,7 @@ export default defineConfig({
   title: "React Router7 中文文档",
   description: "React Router v7 中文文档",
   head: [["link", { rel: "icon", href: "/react-router7-doc/favicon.ico" }]],
+  ignoreDeadLinks: true,
   themeConfig: {
     logo: {
       light: "rr_lockup_light.svg",
