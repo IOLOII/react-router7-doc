@@ -10,7 +10,7 @@ export default defineConfig({
   ignoreDeadLinks: true,
   themeConfig: {
     logo: {
-      light: "rr_lockup_light.svg",
+      light: "/rr_lockup_light.svg",
       dark: "/rr_lockup_dark.svg",
       alt: "React Router7 Logo",
     },
@@ -29,7 +29,7 @@ export default defineConfig({
             text: "框架",
             items: [
               { text: "安装", link: "/framework/installation" },
-              { text: "路由", link: "/markdown-examples/quick-start" },
+              { text: "路由", link: "/framework/routing" },
               { text: "路由模块", link: "/markdown-examples/nested-routes" },
               { text: "渲染策略", link: "/markdown-examples/redirects" },
               { text: "数据加载", link: "/markdown-examples/relative-paths" },

@@ -18,7 +18,7 @@ React Router 是一款适用于 React 的多策略路由器，它让你从 React
 
 它尤其适用于离线 + 同步架构，在这类架构中，待处理状态（pending states）很少出现，而且用户会有长时间持续的会话。像待处理状态、代码拆分、服务器端渲染、搜索引擎优化（SEO）以及初始页面加载时间等框架特性，都可以被舍弃，以换取即时的、本地优先的交互体验。
 
-```jsx
+```tsx
 ReactDOM.createRoot(root).render(
   <BrowserRouter>
     <Routes>
@@ -52,7 +52,7 @@ React Router 可最大限度地被用作你的 React 框架。在这种设置下
 
 路由是通过 `routes.ts` 文件进行配置的，这使得 React Router 能够为你完成诸多工作。例如，它会自动对每条路由进行代码拆分，为传参和数据提供类型安全保障，当用户导航到当前路由时自动数据加载与待处理状态等。
 
-```jsx
+```ts
 import {
   type RouteConfig,
   route,
@@ -83,7 +83,7 @@ export default [
 
 加载器（Loaders）为路由组件提供数据：
 
-```js
+```ts
 // loaders provide data to components
 export async function loader({ params }: Route.LoaderArgs) {
   const [show, isLiked] = await Promise.all([
@@ -96,7 +96,7 @@ export async function loader({ params }: Route.LoaderArgs) {
 
 组件会依据在 routes.ts 文件中配置好的 URL 进行渲染，并且加载器获取的数据会作为属性（prop）传入组件当中。
 
-```jsx
+```tsx
 export default function Show({ loaderData }: Route.ComponentProps) {
   const { show, isLiked } = loaderData;
   return (
@@ -116,7 +116,7 @@ export default function Show({ loaderData }: Route.ComponentProps) {
 
 操作（Actions）能够更新数据，并且触发对页面上所有数据的重新验证，这样一来，你的用户界面（UI）就能自动保持最新状态。
 
-```js
+```ts
 export async function action({ request, params }: Route.LoaderArgs) {
   const formData = await request.formData();
   await fakeSetLikedShow(formData.get("liked"));
