@@ -84,7 +84,7 @@ export async function clientLoader() {
 clientLoader.hydrate = true as const;
 ```
 
-> [!TIP]
+> [!TIP] 提示：
 > 通过使用 `as const`，TypeScript 将会推断出 `clientLoader.hydrate` 的类型为 `true` 而非 `boolean` 类型。这样一来，React Router 就能够基于 `clientLoader.hydrate` 的值来推导出 `loaderData` 的类型了。
 
 也可参考：

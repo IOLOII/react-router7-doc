@@ -31,7 +31,7 @@ export default defineConfig({
               { text: "安装", link: "/framework/installation" },
               { text: "路由", link: "/framework/routing" },
               { text: "路由模块", link: "/framework/route-module" },
-              { text: "渲染策略", link: "/framework/routing" },
+              { text: "渲染策略", link: "/framework/rendering-strategies" },
               { text: "数据加载", link: "/framework/routing" },
               { text: "Actions", link: "/framework/routing" },
               { text: "导航", link: "/framework/routing" },
