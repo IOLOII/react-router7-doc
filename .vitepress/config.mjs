@@ -20,6 +20,7 @@ export default defineConfig({
       { text: "指南", link: "/home" },
       { text: "参考", link: "https://api.reactrouter.com/v7/" },
     ],
+    outline: [2, 3],
     sidebar: [
       {
         text: "指南",
@@ -32,12 +33,12 @@ export default defineConfig({
               { text: "路由", link: "/framework/routing" },
               { text: "路由模块", link: "/framework/route-module" },
               { text: "渲染策略", link: "/framework/rendering-strategies" },
-              { text: "数据加载", link: "/framework/routing" },
-              { text: "Actions", link: "/framework/routing" },
-              { text: "导航", link: "/framework/routing" },
+              { text: "数据加载", link: "/framework/data-loading" },
+              { text: "Actions", link: "/framework/actions" },
+              { text: "导航", link: "/framework/navigating" },
               {
-                text: "加载中的用户界面",
-                link: "/framework/routing",
+                text: "待处理的UI",
+                link: "/framework/pending-ui",
               },
               { text: "测试", link: "/framework/routing" },
               { text: "自定义框架", link: "/framework/routing" },
@@ -76,7 +77,7 @@ export default defineConfig({
         items: [
           { text: "错误边界", link: "/framework/routing" },
           { text: "错误上报", link: "/framework/routing" },
-          { text: "使用Fetchers", link: "/framework/routing" },
+          { text: "使用Fetchers", link: "/how-tos/fetchers" },
           {
             text: "File Route 规范",
             link: "/framework/routing",
