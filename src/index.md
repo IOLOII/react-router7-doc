@@ -13,7 +13,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /markdown-examples
+      link: /home
     - theme: alt
       text: 官方文档
       link: https://reactrouter.com/

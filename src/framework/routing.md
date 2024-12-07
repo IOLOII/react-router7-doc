@@ -73,7 +73,7 @@ route("teams/:teamId", "./team.tsx"),
 // 提供类型安全 / 类型推断
 import type { Route } from "./+types/team";
 
-// 向组件提供`加载器中的数据`
+// 向组件提供 `loaderData`
 export async function loader({ params }: Route.LoaderArgs) {
   let team = await fetchTeam(params.teamId);
   return { name: team.name };
