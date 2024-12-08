@@ -97,7 +97,7 @@ export default defineConfig({
               { text: "安装", link: "/library/installation" },
               { text: "路由", link: "/library/routing" },
               { text: "导航", link: "/library/navigating" },
-              { text: "URL 值", link: "/library/url-values" },
+              { text: "URL传值", link: "/library/url-values" },
             ],
           },
         ],
@@ -176,7 +176,6 @@ export default defineConfig({
         ],
       },
     ],
-
     socialLinks: [
       { icon: "github", link: "https://github.com/gongph/react-router7-doc" },
     ],
