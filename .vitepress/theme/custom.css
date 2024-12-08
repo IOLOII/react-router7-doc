@@ -69,3 +69,7 @@
 .dark .vp-doc a:hover {
   color: white;
 }
+
+.VPMenuGroup .title {
+  font-size: 10px;
+}

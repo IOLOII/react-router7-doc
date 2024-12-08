@@ -18,7 +18,54 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "指南", link: "/home" },
-      { text: "参考", link: "https://api.reactrouter.com/v7/" },
+      { text: "API", link: "https://api.reactrouter.com/v7/" },
+      {
+        text: "生态系统",
+        items: [
+          {
+            text: "官方库",
+            items: [
+              { text: "React", link: "https://reactjs.org/" },
+              {
+                text: "React 中文文档",
+                link: "https://zh-hans.react.dev/learn",
+              },
+              { text: "Redux", link: "https://redux.js.org/" },
+              { text: "React Redux", link: "https://react-redux.js.org/" },
+            ],
+          },
+          {
+            text: "第三方库",
+            items: [
+              {
+                text: "Styled components",
+                link: "https://styled-components.com/docs",
+              },
+              {
+                text: "Framer motion",
+                link: "https://motion.dev/",
+              },
+              {
+                text: "Framer motion 中文文档",
+                link: "https://motion.framer.wiki/introduction",
+              },
+            ],
+          },
+          {
+            text: "UI",
+            items: [
+              {
+                text: "React Icons",
+                link: "https://react-icons.github.io/react-icons/",
+              },
+              {
+                text: "Tailwindcss",
+                link: "https://tailwindcss.com",
+              },
+            ],
+          },
+        ],
+      },
     ],
     outline: [2, 3],
     sidebar: [
