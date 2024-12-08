@@ -17,7 +17,12 @@ export default defineConfig({
     siteTitle: "",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "指南", link: "/home" },
+      {
+        text: "指南",
+        link: "/home",
+        activeMatch:
+          "/(home|framework|library|upgrading|how-tos|explanations|community)/",
+      },
       { text: "API", link: "https://api.reactrouter.com/v7/" },
       {
         text: "生态系统",
