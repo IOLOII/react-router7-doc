@@ -186,4 +186,7 @@ export default defineConfig({
       { icon: "discord", link: "https://rmx.as/discord" },
     ],
   },
+  sitemap: {
+    hostname: "https://gongph.github.io/react-router7-doc",
+  }
 });
