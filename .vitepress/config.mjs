@@ -87,14 +87,14 @@ export default defineConfig({
                 text: "待处理的UI",
                 link: "/framework/pending-ui",
               },
-              { text: "测试", link: "/framework/routing" },
-              { text: "自定义框架", link: "/framework/routing" },
+              { text: "测试", link: "/framework/testing" },
+              { text: "自定义框架", link: "/framework/custom-framework" },
             ],
           },
           {
             text: "库",
             items: [
-              { text: "安装", link: "/framework/routing" },
+              { text: "安装", link: "/library/installation" },
               { text: "路由", link: "/framework/routing" },
               { text: "导航", link: "/framework/routing" },
               { text: "URL 值", link: "/framework/routing" },
