@@ -9,6 +9,9 @@ export default defineConfig({
   head: [["link", { rel: "icon", href: "/react-router7-doc/favicon.ico" }]],
   ignoreDeadLinks: true,
   themeConfig: {
+    search: {
+      provider: "local",
+    },
     logo: {
       light: "/rr_lockup_light.svg",
       dark: "/rr_lockup_dark.svg",
