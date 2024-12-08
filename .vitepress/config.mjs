@@ -183,6 +183,7 @@ export default defineConfig({
     ],
     socialLinks: [
       { icon: "github", link: "https://github.com/gongph/react-router7-doc" },
+      { icon: "discord", link: "https://rmx.as/discord" },
     ],
   },
 });

@@ -7,8 +7,8 @@ React Router 是一款适用于 React 的多策略路由器，它让你从 React
 
 如果你了解未来特性（flags）相关内容，从 React Router v6 或者 Remix 进行升级通常是不会造成破坏的。
 
-- [从 v6 升级]()
-- [从 Remix 升级]()
+- [从 v6 升级](../upgrading/v6)
+- [从 Remix 升级](../upgrading/remix)
 
 ## React Router 做为库使用
 
@@ -32,7 +32,7 @@ ReactDOM.createRoot(root).render(
 );
 ```
 
-[快速开始]()，作为库来使用。
+[快速开始](../library/installation)，作为库来使用。
 
 ## React Router 做为框架使用
 
@@ -126,4 +126,4 @@ export async function action({ request, params }: Route.LoaderArgs) {
 
 路由模块还为搜索引擎优化（SEO）、资源加载、错误边界以及更多方面提供了规范。
 
-[快速开始]()，作为框架来使用。
+[快速开始](../framework/installation)，作为框架来使用。
