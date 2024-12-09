@@ -134,8 +134,8 @@ export default defineConfig({
           { text: "错误上报", link: "/examples/error-reporting" },
           { text: "使用Fetchers", link: "/examples/fetchers" },
           {
-            text: "File Route 规范",
-            link: "/examples/file-route-specification",
+            text: "File Route 约定",
+            link: "/examples/file-route-conventions",
           },
           { text: "文件上传", link: "/examples/file-upload" },
           { text: "表单验证", link: "/examples/form-validation" },
@@ -162,11 +162,11 @@ export default defineConfig({
         text: "说明",
         collapsed: false,
         items: [
-          { text: "自动代码分割", link: "/guide/auto-code-splitting" },
-          { text: "热更新", link: "/guide/hmr" },
-          { text: "竞态条件", link: "/guide/race-conditions" },
-          { text: "特殊文件", link: "/guide/special-files" },
-          { text: "类型安全", link: "/guide/type-safety" },
+          { text: "自动代码分割", link: "/explanations/auto-code-splitting" },
+          { text: "热更新", link: "/explanations/hmr" },
+          { text: "竞态条件", link: "/explanations/race-conditions" },
+          { text: "特殊文件", link: "/explanations/special-files" },
+          { text: "类型安全", link: "/explanations/type-safety" },
         ],
       },
       {
