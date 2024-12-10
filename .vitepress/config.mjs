@@ -75,6 +75,10 @@ export default defineConfig({
         ],
       },
     ],
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2024-present <a href="https://github.com/gongph">gongph</a>'
+    },
     outline: [2, 3],
     sidebar: [
       {
@@ -130,21 +134,21 @@ export default defineConfig({
         text: "示例",
         collapsed: false,
         items: [
-          { text: "错误边界", link: "/examples/error-boundaries" },
-          { text: "错误上报", link: "/examples/error-reporting" },
-          { text: "使用Fetchers", link: "/examples/fetchers" },
+          { text: "错误边界", link: "/how-tos/error-boundaries" },
+          { text: "错误上报", link: "/how-tos/error-reporting" },
+          { text: "使用Fetchers", link: "/how-tos/fetchers" },
           {
             text: "File Route 约定",
-            link: "/examples/file-route-conventions",
+            link: "/how-tos/file-route-conventions",
           },
-          { text: "文件上传", link: "/examples/file-upload" },
-          { text: "表单验证", link: "/examples/form-validation" },
-          { text: "HTTP 请求头", link: "/examples/http-headers" },
-          { text: "预渲染", link: "/examples/prerendering" },
-          { text: "资源文件路由", link: "/examples/resource-file-routes" },
+          { text: "文件上传", link: "/how-tos/file-upload" },
+          { text: "表单验证", link: "/how-tos/form-validation" },
+          { text: "HTTP 请求头", link: "/how-tos/http-headers" },
+          { text: "预渲染", link: "/how-tos/prerendering" },
+          { text: "资源文件路由", link: "/how-tos/resource-file-routes" },
           {
             text: "路由模块类型安全",
-            link: "/examples/route-module-type-safety",
+            link: "/how-tos/route-module-type-safety",
           },
           {
             text: "单文件应用(SPA)",
