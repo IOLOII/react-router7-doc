@@ -118,11 +118,11 @@ export default defineConfig({
           { text: "从 Remix 升级", link: "/upgrading/remix" },
           {
             text: "从 Component Routes 进行框架改造",
-            link: "/framework/component-routes",
+            link: "/upgrading/component-routes",
           },
           {
             text: "从 RouterProvider 进行框架改造",
-            link: "/framework/router-provider",
+            link: "/upgrading/router-provider",
           },
         ],
       },
@@ -186,6 +186,7 @@ export default defineConfig({
     ],
     socialLinks: [
       { icon: "github", link: "https://github.com/gongph/react-router7-doc" },
+      { icon: "twitter", link: "https://x.com/remix_run" },
       { icon: "discord", link: "https://rmx.as/discord" },
     ],
   },
