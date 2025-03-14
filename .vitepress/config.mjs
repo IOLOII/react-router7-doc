@@ -77,7 +77,7 @@ export default defineConfig({
     ],
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2024-present <a href="https://github.com/gongph">gongph</a>'
+      copyright: 'Copyright © 2024-present <a href="https://github.com/IOLOII">IOLOII</a>'
     },
     outline: [2, 3],
     sidebar: [
@@ -179,22 +179,22 @@ export default defineConfig({
         items: [
           {
             text: "API开发策略",
-            link: "https://github.com/gongph/react-router7-doc/issues",
+            link: "https://github.com/IOLOII/react-router7-doc/issues",
           },
           {
             text: "贡献",
-            link: "https://github.com/gongph/react-router7-doc/pulls",
+            link: "https://github.com/IOLOII/react-router7-doc/pulls",
           },
         ],
       },
     ],
     socialLinks: [
-      { icon: "github", link: "https://github.com/gongph/react-router7-doc" },
+      { icon: "github", link: "https://github.com/IOLOII/react-router7-doc" },
       { icon: "twitter", link: "https://x.com/remix_run" },
       { icon: "discord", link: "https://rmx.as/discord" },
     ],
   },
   sitemap: {
-    hostname: "https://gongph.github.io/react-router7-doc",
+    hostname: "https://IOLOII.github.io/react-router7-doc",
   }
 });
